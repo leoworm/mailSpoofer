@@ -1,0 +1,17 @@
+{
+  "name": "mailspoofer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "nodemailer": "^4.6.0",
+    "nodemailer-sendmail-transport": "^1.0.2",
+    "prompt-sync": "^4.1.6"
+  }
+}
