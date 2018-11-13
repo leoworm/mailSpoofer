@@ -58,7 +58,7 @@ nodemailer.createTestAccount((err, account) => {
         if (error) {
           return console.log(error);
         }
-        console.log('R: ${j} of ${data.mail.recipients.length}, ${i} of ${data.mailAmount} // Message sent: ' + info.messageId + ' to ' + mailOptions.to);
+        console.log(`R: ${j} of ${data.mail.recipients.length}, ${i} of ${data.mailAmount} // Message sent: ` + info.messageId + ' to ' + mailOptions.to);
       });
     };
   };
