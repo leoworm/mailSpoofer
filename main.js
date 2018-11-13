@@ -54,12 +54,11 @@ nodemailer.createTestAccount((err, account) => {
       html: '' // html body
     };
     for(var i = 0;i<data.mailAmount;i++){
-      console.log(`R: ${j} of ${data.mail.recipients.length}, ${i} of ${data.mailAmount} // Message sent to ` + data.mail.recipients[j]);
+      console.log(`R: ${j} of ${data.mail.recipients.length}, ${i} of ${data.mailAmount} // Message sent to ` + mailOptions.to);
       transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
           return console.log(error);
         }
-        to);
       });
     };
   };
