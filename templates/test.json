@@ -1,0 +1,19 @@
+{
+  "server": {
+    "host": "192.168.178.98",
+    "port": 587,
+    "auth": {
+      "user": "wini.ott@web.de",
+      "pass": "artemisfowl"
+    }
+  },
+  "mail": {
+    "recipients": [
+      "leo.parody@isa-augsburg.de", "leo.charles.p@gmail.com"
+    ],
+    "sender": "test.account@test.com",
+    "subject": "test",
+    "content": "testing..."
+  },
+  "mailAmount": 10
+}
