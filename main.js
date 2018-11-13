@@ -48,7 +48,7 @@ nodemailer.createTestAccount((err, account) => {
   for(var j = 0; j < data.mail.recipients.length; j++){
     let mailOptions = {
       from: data.mail.sender, // sender address
-      to: data.mail.recipients[j], // list of receivers
+      to: data.mail.recipients[j]+data.mail.domain, // list of receivers
       subject: data.mail.subject, // Subject line
       text: data.mail.content, // plain text body
       html: '' // html body

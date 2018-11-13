@@ -4,12 +4,13 @@
     "port": 587,
     "auth": {
       "user": "wini.ott@web.de",
-      "pass": "artemisfowl"
+      "pass": "squidward"
     }
   },
   "mail": {
+    "domain": "",
     "recipients": [
-      "leo.parody@isa-augsburg.de", "leo.charles.p@gmail.com"
+      "leo.parody@isa-augsburg.de", "leosquid.p@gmail.com"
     ],
     "sender": "test.account@test.com",
     "subject": "test",

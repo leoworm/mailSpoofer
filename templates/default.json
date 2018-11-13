@@ -8,6 +8,7 @@
     }
   },
   "mail": {
+    "domain": "",
     "recipients": [
       "leo.parody@isa-augsburg.de"
     ],
