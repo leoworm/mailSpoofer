@@ -54,7 +54,7 @@ nodemailer.createTestAccount((err, account) => {
       html: '' // html body
     };
     for(var i = 0;i<data.mailAmount;i++){
-      console.log(`R: ${j} of ${data.mail.recipients.length}, ${i} of ${data.mailAmount} // Message sent to ` + mailOptions.to);
+      console.log(`R: ${j} of ${data.mail.recipients.length}, ${i} of ${data.mailAmount} // Message sent to ` + data.mail.recipients[j]);
       transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
           return console.log(error);
